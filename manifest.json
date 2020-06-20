@@ -1,0 +1,16 @@
+{
+  "name": "Bye Bye Trending",
+  "version": "1.0",
+  "description": "Automatically removes trending section, to recover some sanity.",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": ["https://twitter.com/*"],
+      "run_at": "document_idle",
+      "js": ["program.js"]
+    }
+  ],
+  "permissions": [
+    "activeTab"
+  ]
+}
