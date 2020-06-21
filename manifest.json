@@ -1,6 +1,6 @@
 {
   "name": "Bye Bye Trending",
-  "version": "1.0",
+  "version": "0.1",
   "description": "Automatically removes trending section, to recover some sanity.",
   "manifest_version": 2,
   "content_scripts": [
